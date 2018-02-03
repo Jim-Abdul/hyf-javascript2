@@ -68,11 +68,10 @@ console.log(tasks.length);
 
 console.log('-------------------------------------------------------------------');
 
-let converted = [];
-tasks.map(function (item) {
-return converted.push(item.name +' - '+ item.duration/60 + ' hour!');
+let x = tasks.map(function (item) {
+return item.name +' - '+ item.duration/60 + ' hour!';
 });
-console.log(converted)
+console.log(x);
 
 console.log('------------------------------ OR ---------------------------------');
 
